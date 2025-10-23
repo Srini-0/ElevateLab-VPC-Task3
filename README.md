@@ -45,13 +45,13 @@ This task helps beginners learn how to design and manage isolated network infras
 
 #### Public Subnet
 * **Subnet name:** `Public-Subnet`  
-* **Availability Zone:** ap-south-1a  
+* **Availability Zone:** us-east-1a  
 * **IPv4 CIDR block:** `10.0.1.0/24`  
 * Enable **Auto-assign public IPv4 address**  
 
 #### Private Subnet
 * **Subnet name:** `Private-Subnet`  
-* **Availability Zone:** ap-south-1b  
+* **Availability Zone:** us-east-1b  
 * **IPv4 CIDR block:** `10.0.2.0/24`  
 * Disable **Auto-assign public IPv4 address**  
 
@@ -60,6 +60,8 @@ Click **Create Subnets**.
 **Screenshot:** 
 
 ![Subnets Created](Assets/SubnetsPublic.png)
+
+--
 
 ![Subnets Created](Assets/SubnetsPvt.png)
 
