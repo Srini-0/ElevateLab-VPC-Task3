@@ -32,7 +32,8 @@ This task helps beginners learn how to design and manage isolated network infras
    - **Tenancy:** Default  
 3. Click **Create VPC**.
 
-📷 **Screenshot:**  
+**Screenshot:**
+
 ![VPC Dashboard](Assets/VPC-Dashboard.png)
 
 ---
@@ -56,8 +57,10 @@ This task helps beginners learn how to design and manage isolated network infras
 
 Click **Create Subnets**.
 
-📷 **Screenshot:**  
+**Screenshot:** 
+
 ![Subnets Created](Assets/SubnetsPublic.png)
+
 ![Subnets Created](Assets/SubnetsPvt.png)
 
 ---
@@ -69,7 +72,8 @@ Click **Create Subnets**.
 4. Select it and choose **Actions → Attach to VPC**  
 5. Attach it to your `ElevateLab-VPC`
 
-📷 **Screenshot:**  
+**Screenshot:**  
+
 ![Internet Gateway](Assets/Internet-Gateway.png)
 
 ---
@@ -86,7 +90,8 @@ Click **Create Subnets**.
 3. Save changes  
 4. Under **Subnet Associations**, associate the **Public-Subnet**  
 
-📷 **Screenshot:**  
+**Screenshot:**
+
 ![Public Route Table](Assets/Public-Route-Table.png)
 
 #### Private Route Table
@@ -96,7 +101,8 @@ Click **Create Subnets**.
 2. No route to the Internet Gateway (keeps it isolated)  
 3. Associate this table with the **Private-Subnet**  
 
-📷 **Screenshot:**  
+**Screenshot:**  
+
 ![Private Route Table](Assets/Private-Route-Table.png)
 
 ---
@@ -107,12 +113,13 @@ Click **Create Subnets**.
    * **Public Subnet:** Connected to Internet Gateway  
    * **Private Subnet:** No external connectivity  
 
-📷 **Screenshot:**  
+**Screenshot:**  
+
 ![VPC Verification](Assets/VPC-Created.png)
 
 ---
 
-## 📄 Configuration Summary
+## Configuration Summary
 
 | Component     | Name           | CIDR Block  | Internet Access | Notes                    |
 | ------------- | -------------- | ----------- | --------------- | ------------------------ |
