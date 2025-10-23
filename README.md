@@ -61,7 +61,6 @@ Click **Create Subnets**.
 
 ![Subnets Created](Assets/SubnetsPublic.png)
 
---
 
 ![Subnets Created](Assets/SubnetsPvt.png)
 
